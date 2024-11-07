@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Relative-path-navigation-Level-3_1</title>
+    </head>
+    <!-- 
+    # ✅ Aufgabenstellung
+
+- Lernziel: Verwendung von relative-path und absolute-path.
+- So sollte deine Projekt-Struktur dieses Mal aussehen. Hier haben wir eine Navigation zu allen Seiten und den Seiteninhalt mit einer h1, img und anchor-tag.
+- Nutze abwechselnd relative-path und Bilder aus dem Ordner “img” + den img-tag, sowie Bilder per absolute-path aus dem Internet.
+- Um passende Bilder zu finden, kannst du [unsplash](https://unsplash.com/) nutzen und sie in deinem img-Ordner speichern.
+- In deinem Startverzeichnis befindet sich ein Überordner “assets” und in diesem befinden sich zwei weitere Ordner (html, img).
+- Die index.html liegt im Startverzeichnis.
+- In dem Ordner “html” befinden sich weitere Ordner (france, germany, spain).
+- In dem Ordner “france” befindet sich die Datei paris.html
+- In dem Ordner “germany” befinden sich zwei Ordner (berlin, nrw).
+- In dem Ordner “berlin” befindet sich die Datei berlin.html
+- In dem Ordner “nrw” befindet sich die Datei düsseldorf.html
+- In dem Ordner “spain” befindet sich die Datei spain.html
+    -->
+    <body>
+        <header>
+            <li><a href="./assets/html/france/paris.html">France</a></li>
+            <li><a href="./assets/html/germany/berlin/berlin.html">Berlin</a></li>
+            <li><a href="./assets/html/germany/nrw/dusseldorf.html">Duesseldorf</a></li>
+            <li><a href="./assets/html/spain/spain.html">Spain</a></li>
+        </header>
+
+        <main>
+            <h1>Virtual Travellig</h1>
+            <p><a href="./assets/html/france/paris.html">Let's start in Paris</a></p>
+            <img src="./assets/img/globe.jpg" alt="Globe" width="400" height="500" />
+        </main>
+    </body>
+</html>
